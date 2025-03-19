@@ -64,7 +64,7 @@ void insertionSort(int isiArray[], int panjangArray)
         kunci = isiArray[indexYangDiurutkan]; // elemen yang ingin diurutkan
 
         // bandingkan dengan isi array sebelumnya 
-        while(indexPembanding >= 0 && isiArray[indexPembanding] < kunci) // apakah elemen pembanding lebih besar dari kunci?
+        while(indexPembanding >= 0 && isiArray[indexPembanding] > kunci) // apakah elemen pembanding lebih besar dari kunci?
         {
             isiArray[indexPembanding+1] = isiArray[indexPembanding]; // Geser elemen ke kanan
             indexPembanding--;         // Pindah ke elemen sebelumnya
