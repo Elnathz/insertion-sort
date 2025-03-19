@@ -36,9 +36,7 @@ int main()
 }
 
 
-
 // function
-
 void printArray(int isiArray[], int panjangArray) 
 {
     for(int i = 0; i < panjangArray ; i++) 
@@ -50,9 +48,11 @@ void printArray(int isiArray[], int panjangArray)
 
 void insertionSort(int isiArray[], int panjangArray) 
 {
+    // print sebelum diurutkan
     printArray(isiArray, panjangArray);
 
-    // mulai insertion sort dengan inisialisasi indexYangDiurutkan = 1 untuk elemen yang ingin diurutkan, dan indexPemabanding = indexYangDiurutkan - 1 untuk pembanding yang di mana merupakan semua index sebelum variable indexYangDiurutkan
+    // mulai insertion sort dengan inisialisasi indexYangDiurutkan = 1 untuk elemen yang ingin diurutkan, 
+    // dan indexPembanding = indexYangDiurutkan - 1 untuk pembanding yang di mana merupakan semua index sebelum variable indexYangDiurutkan
     int kunci; // sebagai wadah dari elemen yang dibandingkan
     int indexYangDiurutkan; // sebagai elemen yang ingin diurutkan
     int indexPembanding; // sebagai elemen pembanding dengan index sebelum yang diurutkan// sebagai elemen pembanding dengan index sebelum yang diurutkan
